@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css">
+     <link rel="stylesheet" type="text/css" href="cssTugas.css">
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>	
+     <script>		
+        $(document).ready(function(){	
+                $("#flip").click(function(){	
+                        $("#panel").slideDown("slow");	
+                });	
+        });	
+        </script>	
+</head>
+
+<!-- <body> -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#">YummySite.</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <body>
+        <section class="content">
+            <div class="container">
+                <h1>Selamat Datang di Website Sederhana</h1>
+                <!-- <p>Saatnya menjelajahi dessert</p> -->
+            </div>
+        </section>
+        <section class="header-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="img/macaron.jpg" class="img-fluid" alt="Gambar Header">
+                    </div>
+                    <div class="col-md-6">
+                        <h2 id="flip">Macaron</h2>
+                        <p id="panel">Terbuat dari tepung almod, Ini adalah yummy dll.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+    <section class="news-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <aside class="sidebar">
+                        <h3>Cookie Choco</h3>
+                        <img src="img/box2.jpg" class="imgbox1" alt="">
+                        <!-- <ul>
+                            <li><a href="#">Kategori 1</a></li>
+                            <li><a href="#">Kategori 2</a></li>
+                            <li><a href="#">Kategori 3</a></li>
+                        </ul> -->
+                    </aside>
+                </div>
+                <div class="col-lg-9">
+                    <div class="row">
+                        <div class="col-md-4 mb-4">
+                            <div class="news-box">
+                                <h3>Banana Milk</h3>
+                                <img src="img/box3.jpg" class="imgbox1">
+                                <p>Asli murni.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mb-4">
+                            <div class="news-box">
+                                <h3>Kue Mochi</h3>
+                                <img src="img/box2.jpg" class="imgbox1" alt="">
+                                <p>Kenyal</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mb-4">
+                            <div class="news-box">
+                                <h3>Pie susu</h3>
+                                <img src="img/box3.jpg" class="imgbox1" alt="">
+                                <p>Renyah</p>
+                            </div>
+                        </div>
+                        <!-- Tambahkan div col-md-4 mb-4 sesuai dengan jumlah box berita yang diinginkan -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    <footer class="footer bg-dark text-white">
+        <div class="container">
+            <p>&copy; 2024 Nasya Kirana</p>
+        </div>
+    </footer>
+    
+    <script src="jquery.js"></script>
+    <script src="main.js"></script>
+    <script src="bootstrap-5.3.3-dist/js/bootstrap.min.js"></script>
+</body>
+</html>

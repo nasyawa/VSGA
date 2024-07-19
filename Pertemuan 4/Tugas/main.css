@@ -1,0 +1,47 @@
+/* CSS untuk gambar latar belakang */
+.banner {
+    background: url('img/bg.jpg');
+    background-size: cover;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    color: #550154;
+}
+
+/* CSS untuk card */
+.card {
+    margin-bottom: 20px;
+}
+
+/* CSS untuk bagian makanan */
+.makanan {
+    background-color: #f8f9fa;
+}
+.card-horizontal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+footer {
+    background-color: #343a40; /* Warna background dark */
+    color: white; /* Warna teks putih */
+}
+
+footer a {
+    color: white; /* Warna link putih */
+    text-decoration: none; /* Hapus underline pada link */
+}
+
+footer a:hover {
+    text-decoration: underline; /* Underline saat hover */
+}
+.card img {
+    height: 200px; 
+    object-fit: cover;
+    width: 100%;
+}
+.back-button {
+    position: absolute;
+    right: 20px;
+}
+
+
